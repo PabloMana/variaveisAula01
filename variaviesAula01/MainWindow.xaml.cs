@@ -22,13 +22,10 @@ namespace variaviesAula01
         {
             InitializeComponent();
         }
-
+        //Declaraão das variaveis
+        double N1, N2, Resultado;
         private void btnsomar_Click(object sender, RoutedEventArgs e)
         {
-
-            //Declaraão das variaveis
-            double N1, N2, Resultado;
-           
             //Entrada de dados
             N1 = Convert.ToDouble(txtNumero1.Text); //efetuando a conversão de string para double
             N2 = Convert.ToDouble(txtNumero2.Text);
@@ -38,14 +35,11 @@ namespace variaviesAula01
 
             //Saída de dados
             lblResultado.Content = "Somar: " + Resultado.ToString();
-
-
         }
 
         private void btnSubtrair_Click(object sender, RoutedEventArgs e)
         {
-            //Declaraão das variaveis
-            double N1, N2, Resultado;
+           
 
             //Entrada de dados
             N1 = Convert.ToDouble(txtNumero1.Text); //efetuando a conversão de string para double
@@ -60,9 +54,7 @@ namespace variaviesAula01
 
         private void btnDividir_Click(object sender, RoutedEventArgs e)
         {
-            //Declaraão das variaveis
-            double N1, N2, Resultado;
-
+            
             //Entrada de dados
             N1 = Convert.ToDouble(txtNumero1.Text); //efetuando a conversão de string para double
             N2 = Convert.ToDouble(txtNumero2.Text);
@@ -76,9 +68,7 @@ namespace variaviesAula01
 
         private void btnMultiplicar_Click(object sender, RoutedEventArgs e)
         {
-            //Declaraão das variaveis
-            double N1, N2, Resultado;
-
+            
             //Entrada de dados
             N1 = Convert.ToDouble(txtNumero1.Text); //efetuando a conversão de string para double
             N2 = Convert.ToDouble(txtNumero2.Text);
